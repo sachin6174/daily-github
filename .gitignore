@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+.AppleDouble
+.lsdplugin
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode User Data & Settings
+xcuserdata/
+*.xcuserdata
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/workspace.userdefaults
+UserInterfaceState.xcuserstate
+*.xcuserstate
+
+# Build generated files
+build/
+DerivedData/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Fastlane / CocoaPods / Carthage
+fastlane/report.xml
+fastlane/Preview.html
+# Pods/
+# Carthage/Build/
