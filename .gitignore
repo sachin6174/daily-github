@@ -1,11 +1,14 @@
-# macOS
+# macOS / OS X
 .DS_Store
+.DS_Store?
 .AppleDouble
 .lsdplugin
 .LSOverride
 ._*
 .Spotlight-V100
 .Trashes
+ehthumbs.db
+Thumbs.db
 
 # Xcode User Data & Settings
 xcuserdata/
@@ -16,14 +19,32 @@ xcuserdata/
 *.xcworkspace/xcshareddata/workspace.userdefaults
 UserInterfaceState.xcuserstate
 *.xcuserstate
+*.xcbkptlist
 
 # Build generated files
 build/
 DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xccheckout
+*.moved-aside
 
 # Swift Package Manager
 .swiftpm/
 .build/
+Packages/
+Package.pins
+Package.resolved
+
+# Xcode Playground User Data
+*.playground/playground.xcworkspace/xcuserdata/
+*.playground/xcuserdata/
 
 # IDE & Editors
 .vscode/
@@ -34,5 +55,3 @@ DerivedData/
 # Fastlane / CocoaPods / Carthage
 fastlane/report.xml
 fastlane/Preview.html
-# Pods/
-# Carthage/Build/
