@@ -25,6 +25,12 @@ DerivedData/
 .swiftpm/
 .build/
 
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*~
+
 # Fastlane / CocoaPods / Carthage
 fastlane/report.xml
 fastlane/Preview.html
